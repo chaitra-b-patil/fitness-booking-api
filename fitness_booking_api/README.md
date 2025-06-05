@@ -37,7 +37,3 @@ curl -X POST http://localhost:8000/book \
 ```bash
 curl "http://localhost:8000/bookings?email=john@example.com"
 ```
-
-## 📹 Loom Video
-
-👉 Link your Loom walkthrough here.
