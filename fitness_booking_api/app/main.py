@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from app.models import Booking
+from fitness_booking_api.app.models import Booking
 from app.crud import get_all_classes, book_class, get_bookings_by_email
 from app.database import classes  # triggers class storage
 from seed_data import seed_classes  # initialize seed data
